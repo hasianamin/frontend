@@ -1,0 +1,73 @@
+body {
+    margin: 0 1%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+div, nav {
+    border: 1px solid black;
+}
+
+.menu {
+    display: flex;
+    text-align: center;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.title {
+    margin: 0 5%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+.image {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: turquoise;
+}
+
+.pict {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+
+}
+
+.pict-title {
+    position: relative;
+    top: -10px;
+    width: 95%;
+    text-align: center;
+    background-color: blue;
+}

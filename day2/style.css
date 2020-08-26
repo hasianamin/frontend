@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    /* border: 1px solid salmon; */
+}
+
+.kotak {
+    /* width: 33%; */
+    flex: 1;
+    height: 150px;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    height: 80px;
+    align-items: center;
+}
+
+.kotaja {
+    flex: 2;
+}
+
+.kotak2 {
+    /* background-color: lawngreen; */
+    color: white;
+}
+
+.kotak3 {
+    /* background-color: lemonchiffon; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.jumbotron {
+    display: flex;
+    /* background-color: lemonchiffon; */
+    padding: 40px 140px 0 140px;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.price {
+    font-size: 33.6px;
+    margin-bottom: 10px;
+}
+
+.kanan h3 {
+    font-size: 57px;
+    margin-bottom: 10px;
+}
+
+.tulis {
+    font-size: 17px;
+    line-height: 30.4px;
+    margin-bottom: 30px;
+}
+
+.kiri {
+    padding-left: 80px;
+}
+
+.btn-closer {
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    width: 25%;
+    height: 50px;
+    font-size: 13px;
+    font-weight: 800;
+    border: 1px solid black;
+}
+
+.btn-video {
+    background-color: sandybrown;
+    color: black;
+    margin-right: 20px;
+    width: 25%;
+    height: 50px;
+    font-size: 13px;
+    font-weight: 800;
+    border: 1px solid sandybrown;
+}
+
+.btn-closer:hover .closer {
+    transform: translate(5px, 0);
+}
+
+.btn-closer:hover {
+    cursor: pointer;
+}
+
+.closer {
+    transition: 800ms;
+}
+
+.btn-video:hover .video {
+    transform: translate(5px, 0);
+    color: white;
+}
+
+.btn-video:hover {
+    cursor: pointer;
+}
+
+.video {
+    transition: 800ms;
+}
+
+/* for tablet */
+@media only screen and (max-width:768px) {
+    .kotak3 {
+        display: none;
+    }
+
+    .kotak2 {
+        background-color: tomato;
+    }
+
+    .bar {
+        color: white;
+    }
+    
+    .kiri {
+        padding-left: 0;
+    }
+
+    .jumbotron {
+        flex-direction: column;
+        padding: 20px 70px 0 70px;
+        margin-bottom: 10px;
+    }
+
+    .w-50 {
+        width: 100%;
+    }
+}
+
+/* for smartphone */
+@media only screen and (max-width:576px) {
+    .kotak3 {
+        display: none;
+    }
+}

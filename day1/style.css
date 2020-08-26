@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar {
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.nav-bar a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {
+    margin-left: 5%;
+}
+
+.navigation {
+    margin-right: 5%;
+    float: right;
+}
+
+.navigation a {
+    margin-left: 50px;
+}
+
+.navigation a:hover{
+    color: blue;
+    transition: 400ms;
+}
+
+.header {
+    position: relative;
+    top: 60px;
+    background-color: whitesmoke;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.header a {
+    float: left;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+
+.news {
+    margin-left: 5%;
+}
+
+.header .view {
+    float: right;
+    margin-right: 5%;
+}
+
+.view a:hover {
+    opacity: 45%;
+}
+
+.content {
+    position: relative;
+    top: 20px;
+    background-image: url(./img/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    color: white;
+}
+
+.content-header {
+    position: relative;
+    top: 80px;
+    left: 15%;
+    width: 800px;
+}
+
+.content-header h1 {
+    position: relative;
+    top: -110px;
+    font-size: 110px;
+}
+
+.content-header h4 {
+    position: relative;
+    top: -10px;
+    font-size: 30px;
+    font-weight: 10;
+}
+
+.content-header p {
+    position: relative;
+    top: -180px;
+    font-size: 22px;
+    text-shadow: 0 0 2px black;
+    font-weight: lighter;
+}
+
+.content .btn-primary {
+    display: block;
+    position: relative;
+    left: 15%;
+    top: -80px;
+    width: 105px;
+    padding: 15px;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 0 2px black;
+    border-radius: 2px;
+}
