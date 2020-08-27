@@ -3,6 +3,7 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /* div, nav {
@@ -11,6 +12,10 @@
 
 html, body, section {
     position: relative;
+}
+
+section {
+    overflow: hidden;
 }
 
 nav {
@@ -28,6 +33,10 @@ nav {
     text-align: center;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .logo {
     width: 200px;
     color: white;
@@ -43,7 +52,7 @@ nav {
     width: 568.237px;
 }
 
-.menu a {
+.dropdown > a {
     text-decoration: none;
     color: white;
     font-size: 16px;
@@ -51,7 +60,7 @@ nav {
     transition: 300ms;
 }
 
-.menu a:hover {
+.dropdown > a:hover {
     color: blue;
 }
 
@@ -85,7 +94,7 @@ nav {
 
 .container {
     padding: 0 96px 0 96px;
-    margin: 0 114px 0 114px;
+    margin: 0 114px 180px 114px;
 }
 
 .jum-header {
@@ -196,12 +205,12 @@ nav {
 }
 
 .content-menu {
-    margin: 144px 0 56px 0;
+    margin: 124px 0 56px 0;
     display: flex;
 }
 
 .content-menu p{
-    margin: 144px 0 56px 0;
+    margin: 20px 0 10px 0;
     display: flex;
     line-height: 30.4px;
 }
@@ -283,6 +292,10 @@ h4 {
     transform: translate(5px, 0);
 }
 
+.details-opt a:hover {
+    color: gray;
+}
+
 .details {
     display: flex;
     flex-wrap: wrap;
@@ -311,7 +324,7 @@ h4 {
 
 .to-left {
     position: relative;
-    left: -20px;
+    left: -70px;
 }
 
 .to-right {
@@ -407,4 +420,76 @@ footer a:hover {
     border-top: 0.5px solid whitesmoke;
     padding-top: 20px;
     font-size: 10px;
+}
+
+.bg-yellow {
+    position: relative;
+    top: 0;
+    left: 200px;
+    opacity: 20%;
+    z-index: -1;
+    height: 630px;
+    width: 1327px;
+    background-color: #FEBF43;
+}
+
+.bg-green {
+    position: relative;
+    top: 0;
+    right: 210px;
+    opacity: 20%;
+    z-index: -1;
+    height: 630px;
+    width: 1327px;
+    background-color: #227744;
+}
+
+.bg-purple {
+    position: relative;
+    top: 0;
+    left: 200px;
+    opacity: 20%;
+    z-index: -1;
+    height: 630px;
+    width: 1327px;
+    background-color: #ae9eff;
+}
+
+.bg-black {
+    position: relative;
+    top: 0;
+    right: 210px;
+    opacity: 10%;
+    z-index: -1;
+    height: 830px;
+    width: 1327px;
+    background-color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    color: black !important;
+    width: auto;
+    padding-top: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: right;
+}
+
+.dropdown-content > a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    transition: 300ms;
+}
+
+.dropdown:hover .dropdown-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-content a:hover {
+    color: blue;
 }
