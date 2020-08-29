@@ -37,6 +37,10 @@ button:hover {
     cursor: pointer;
 }
 
+button:focus {
+    outline: none;
+}
+
 .logo {
     width: 200px;
     color: white;

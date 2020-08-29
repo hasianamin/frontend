@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(238, 238, 238) !important;
+    padding-left: calc(15% + 2px);
+}
+
+/* navbar start */
+.navbar-kiri {
+    background: white;
+    height: 100vh;
+    width: 15%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.menu .isimenu {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.menu .isimenu a {
+    text-decoration: none;
+    color: #afafaf;
+    font-weight: bolder;
+}
+
+.menu .isimenu:hover {
+    /* cursor: pointer; */
+    background: #c5daf0;
+    cursor: pointer;
+}
+
+.menu .isimenu:hover a {
+    transform: scale(1.1);
+    transition: 300ms;
+    color: #007bff;
+
+}
+
+ul {
+    list-style: none;
+}
+
+ul .a1:before {
+    content: "\2022";
+    color: green;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    font-size: 30px;
+}
+
+ul .a2:before {
+    content: "\2022";
+    color: blue;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    font-size: 30px;
+}
+/* navbar end */
+
+.kanan {
+    margin: ;
+}

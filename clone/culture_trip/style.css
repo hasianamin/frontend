@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'proxima_novaregular', Arial, Helvetica, sans-serif;
+}
+
+div, nav {
+    border: 1px solid black;
+}
+
+body {
+    height: 2000px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1% 0 1%;
+    width: 100%;
+    background-color: white;
+}
+
+section {
+    padding-top: 72px;
+}
+
+input {
+    width: 530px;
+    height: 46px;
+    font-size: 16px;
+    border-color: black;
+    opacity: 30%;
+    border-radius: 2%;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 414.188px;
+    align-items: center;
+}
+
+.menu a {
+    color: black;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btn-black {
+    background-color: black;
+    color: white !important;
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-size: 12px !important;
+}
+
+.attention {
+    text-align: center;
+    background-color: rgb(236,242,248);
+}
+
+.attention p {
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    padding-top: 11px;
+    color: black;
+    opacity: 100%;
+}
+
+.jumbotron {
+    background-color: white;
+}

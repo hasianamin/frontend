@@ -1,0 +1,11 @@
+.foto{
+    transition: 300ms;
+}
+
+.foto:hover {
+    transform: scale(1.1);
+}
+
+/* div {
+    border: 1px solid black;
+} */
